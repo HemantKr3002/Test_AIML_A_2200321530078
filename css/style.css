@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "PP Migra";
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container{
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 3em;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+input{
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+button,#first,#second{
+    background-color: black;
+    color: aliceblue;
+    padding: .3em;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#first,#second{
+    width: fit-content;
+}
